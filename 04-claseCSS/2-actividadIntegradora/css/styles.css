@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+header{
+    height: 200px;
+    background-color: #E6E6E6;
+}
+
+h1,h2{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+/* Estilos de Section */
+.datosPersonales{
+    margin-top: 100px;
+}
+
+.experienciaLaboral{
+    margin-bottom: 100px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+}
