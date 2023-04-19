@@ -3,15 +3,27 @@
     margin: 0;
     /* padding: 0; */
 }
-
-header{
-    height: 200px;
-    background-color: #E6E6E6;
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 h1,h2{
     background-color: #C4C4C4;
     color: #005677;
+    text-align: center;
+    font-size: 1.5em;
+}
+/* Estilos de Header */
+header{
+height: 200px;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 /* Estilos de Section */
@@ -23,12 +35,30 @@ h1,h2{
     margin-bottom: 100px;
 }
 
+section ul{
+    margin: 20px 0;
+}
+
+section li{
+    font-style: italic;
+    line-height: 20px;
+}
+
 span{
     font-weight: bold;
 }
 
-/* Footer */
+.formacionAcademica li, .experienciaLaboral li{
+    list-style: none;
+}
 
+/* Estilos de Footer */
 footer{
-    width: 100%;
+    text-align: center;
+    
+}
+
+footer p{
+    font-size: 1.2em;
+    font-weight: bold;
 }
