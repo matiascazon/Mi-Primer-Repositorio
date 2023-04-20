@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://images3.alphacoders.com/621/621682.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #f4e033;
+    background-color: rgba(0,0,0, .5);
+}
+
+h2{
+    color: #ffffff;
+    background-color: #fa8a21;
+    opacity: 0.4;
+}
