@@ -1,0 +1,6 @@
+.nav-bar{
+    background-color: yellow;
+    width: 100%;
+    position: sticky;
+    top: 5px;
+}
