@@ -140,7 +140,6 @@ footer ul {
   /*Añadimos flex*/
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 13px;
 }
 
