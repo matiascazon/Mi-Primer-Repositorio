@@ -42,6 +42,7 @@ header .header__logo {
   /*Añadimos flex*/
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 header .header__logo span,
@@ -138,8 +139,9 @@ footer ul {
   color: var(--lightWhite);
   /*Añadimos flex*/
   display: flex;
-  align-items: center;
-  gap: 5px;
+  flex-direction: column;
+  align-items: start;
+  gap: 13px;
 }
 
 @media screen and (max-width:  768px) {
