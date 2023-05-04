@@ -215,6 +215,9 @@ footer ul {
 
 
 @media (max-width: 450px) {
+    .bg-header{
+        height: 100vh;
+    }
     .contacto{
         width: 100%;
     }
