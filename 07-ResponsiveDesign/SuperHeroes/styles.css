@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2,h3{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+/* Estilos del Header */
+.descuentos{
+    margin: 0;
+    padding:  10px 40px;
+    background-color: #D1891C;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.heading{
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 30px 40px;
+    
+}
+
+.heading h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* Estilos de Carta */
+.contenedor{
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.carta{
+    /* border: 1px solid black; */
+    height: 750px;
+    width: 350px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin: 0 15px;
+}
+
+.carta .fondo{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    max-height: 200px;
+}
+
+.carta .perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+}
+.cuerpo{
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cuerpo h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    /* margin: 20px 0 0; */
+}
+
+.cuerpo p{
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    min-height: 200px;
+}
+
+.cuerpo button{
+    text-align: center;
+    height: 60px;
+    width: 160px;
+
+    background-color: #00669F;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+
+}
+
+.corazon{
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.carta:nth-last-child(1){
+    display: none;
+}
+
+.nuevo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #001b2b;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+}
+/* Estilos del footer */
+
+footer{
+    background-color: #00669F;
+    padding: 30px 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+
+
+@media (min-width: 860px) {
+    .carta:nth-last-child(1){
+        display:block;
+    }
+
+    .contenedor{
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    .nuevo{
+        right: 30px;
+        bottom: 20px;
+    }
+}
