@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+}
+
+/* Header */
+header .heading{
+    background-color: #222222;
+}
+
+header .heading p{
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+}
+header .heading li{
+    color: #F3F3F3;
+
+}
+
+header li{
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header .banner{
+    background-color: #F0A83E;
+}
+header .banner h1{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+}
+header .banner span{
+    color: #3C2313;
+}
+
+/* Section Hero */
+
+#hero div{ 
+    height: 800px;
+    background-image: url(/04-claseCSS/3-PetShop/images/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h1,p{
+
+    color: #3C2313;
+}
+
+/* Section Productos Destacados */
+
+#productos-destacados{
+    color: #3C2313;
+}
+
+#productos-destacados li{
+    list-style: none;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #3C2313;
+}
+
+footer p{
+    color: #FFFFFF;
+}
+
+footer div{
+    background-color: #222222;
+}
+
+footer .parrafo-titulo{
+    font-size: 2em;
+}
+
