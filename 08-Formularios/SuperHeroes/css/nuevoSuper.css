@@ -3,4 +3,104 @@
     margin: 0;
     padding: 0;
 }
+main{
+    font-family: 'Roboto',sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contenedorForm {
+    background-color: #00669F;
+    border-radius: 15px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.contenedorForm h1{
+    margin: 10px 0;
+    color: #FBFFFD;
+}
+
+.contenedorForm form{
+    min-height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.contenedorInput{
+    margin: 10px 0;
+    padding: 0 20px;
+    width: 50%;
+}
+
+.contenedorInput input,label,select{
+    margin: 5px;
+}
+
+.contenedorInput label,p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.contenedorInputs{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type="text"],input[type="date"],select{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border:none;
+    padding-left: 5px;
+}
+
+#descripcion{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    border: none;  
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 250px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border:none;
+    background-color:#1CD1B0;
+    font-size: 1.5rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #022c44;
+    color: white;
+}
+
+#poderes{
+    height: 20px;
+    width: 20px;
+}
+
+.contenedorInput div{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    margin: 15px 0;
+}

@@ -24,50 +24,65 @@
             <p>Agrega tu personaje favorito completando las opciones.</p>
 
                 <form action="" method="post">
-                    <div class="contenedorInput">
-                        <label for="nombre">Nombre (campo obligatorio)</label>
-                        <input type="text" name="nombre" id="nombre">
-                    </div>
-                    <div class="contenedorInput">
-                        <label for="fecha">Fecha (campo obligatorio)</label>
-                        <input type="text" name="fecha" id="fecha">
-                    </div>
-                    <div class="contenedorInput">
-                        <input type="text" name="descripcion" id="descripcion" placeholder="Descripción">
-                    </div>
-                    <div class="contenedorInput">
-                        <label for="especie">Especie (campo obligatorio)</label>
-                        <select name="especie" id="especie">
-                            <option value="" disabled selected>Unknow</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
-                    </div>
-                    <div class="contenedorInput">
-                        <label for="">Agregar foto</label>
-                        <input type="file" name="foto" id="foto">
-                    </div>
-                    <div class="contenedorInput">
-                        <p>Poderes</p>
-                        <label for="">Volar</label>
-                        <input type="checkbox" name="poderes" id="poderes" value="[poderes]">
-                        <label for="">Super Inteligencia</label>
-                        <input type="checkbox" name="poderes" id="poderes" value="[poderes]">
-                        <label for="">Vista de rayo láser</label>
-                        <input type="checkbox" name="poderes" id="poderes" values="[poderes]">
-                        <label for="">Billetera gorda</label>
-                        <input type="checkbox" name="poderes" id="poderes" values="[poderes]">
-                    </div>
-                    <br>
-                    <div class="contenedorInput">
-                        <label for="">Héroe / Heroína</label>
-                        <input type="radio" name="heroe" id="heroe" value="heroe">
-                        <label for="">Villano / Villana</label>
-                        <input type="radio" name="heroe" id="heroe" value="villano">
-                    </div>
+                    <div class="contenedorInputs">
 
-                    <input type="submit">
+                        <div class="contenedorInput">
+                            <label for="nombre">Nombre (campo obligatorio)</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="contenedorInput">
+                            <label for="especie">Especie (campo obligatorio)</label>
+                            <select name="especie" id="especie">
+                                <option value="" disabled selected>Unknow</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="contenedorInput">
+                            <label for="fecha">Fecha (campo obligatorio)</label>
+                            <input type="text" name="fecha" id="fecha">
+                        </div>
+                        <div class="contenedorInput">
+                            <label for="">Agregar foto</label>
+                            <input type="file" name="foto" id="foto">
+                        </div>
+                        <div class="contenedorInput">
+                            <input type="text" name="descripcion" id="descripcion" placeholder="Descripción">
+                        </div>
+                        <div class="contenedorInput">
+                            <p>Poderes</p>
+                            <div>
+                                <input type="checkbox" name="poderes" id="poderes" value="[poderes]">
+                                <label for="">Volar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" id="poderes" value="[poderes]">
+                                <label for="">Super Inteligencia</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" id="poderes" values="[poderes]">
+                                <label for="">Vista de rayo láser</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="poderes" id="poderes" values="[poderes]">
+                                <label for="">Billetera gorda</label>
+                            </div>
+                            
+                            <hr>
+                            <p class="tipoPersonaje">Tipo de Personaje</p>
+                            <div>
+                                <label for="">Héroe / Heroína</label>
+                                <input type="radio" name="heroe" id="heroe" value="heroe">
+                            </div>
+                            <div>
+                                <label for="">Villano / Villana</label>
+                                <input type="radio" name="heroe" id="heroe" value="villano">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <input type="submit" value="Añadir">
                 </form>
         </div>
     </main>
