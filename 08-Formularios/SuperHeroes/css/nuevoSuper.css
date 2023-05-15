@@ -9,12 +9,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 }
 
 .contenedorForm {
     background-color: #00669F;
     border-radius: 15px;
-    width: 700px;
+    max-width: 700px;
+    /* min-width: 400px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +31,7 @@ main{
 
 .contenedorForm form{
     min-height: 500px;
-    width: 700px;
+    /* min-width: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -62,7 +64,7 @@ main{
 }
 
 input[type="text"],input[type="date"],select{
-    width: 250px;
+    min-width: 100%;
     height: 50px;
     border-radius: 15px;
     border:none;
@@ -72,6 +74,7 @@ input[type="text"],input[type="date"],select{
 #descripcion{
     width: 250px;
     height: 200px;
+    padding: 5px;
     border-radius: 15px;
     border: none;  
 }
@@ -103,4 +106,27 @@ input[type="submit"]:hover{
 
 hr{
     margin: 15px 0;
+}
+
+
+
+@media (max-width:705px) {
+    .contenedorInputs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorForm{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contenedorInput{
+        width: 100%;
+    }
+
+    .contenedorForm p{
+        text-align: center;
+    }
+
 }
